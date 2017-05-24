@@ -1,11 +1,12 @@
 html, body {
   padding: 0;
   margin: 0;
-  line-height: 1.8em; }
+  line-height: 1.8em;
+  background: #202020; }
 
 body, input, textarea {
   font-family: 'Fira Sans', sans-serif;
-  color: #222;
+  color: #888;
   -webkit-font-smoothing: antialiased; }
 
 h1 {
@@ -59,7 +60,7 @@ a {
     flex: 1; } }
 
 .post h1 a {
-  color: #000;
+  color: #FFF;
   text-decoration: none; }
   .post h1 a:hover {
     text-decoration: underline; }
@@ -182,7 +183,7 @@ a {
   padding: 50px 0 0 0; }
 
 .button, input[type="submit"] {
-  background: #fff;
+  background: #888;
   cursor: pointer;
   border: 1px solid #666;
   color: #000;
@@ -276,20 +277,20 @@ nav {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   z-index: 999; }
   nav a {
     display: inline-block;
     text-decoration: none;
     padding: 20px 15px;
-    color: #444;
+    color: #888;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: .9em; }
     nav a.active {
-      color: #888; }
+      color: #FFF; }
     nav a:hover {
-      color: #000; }
+      color: #BBB; }
 
 .sidebar {
   width: 250px;
@@ -357,33 +358,6 @@ nav {
         text-shadow: 1px 1px 1px #000; }
       .recipes .recipe a:hover {
         background: none; }
-
-.editor-link {
-  display: none;
-  margin-top: 0;
-  border: 0;
-  border-radius: 2px;
-  box-sizing: border-box;
-  text-decoration: none;
-  margin: 0;
-  cursor: pointer;
-  background-color: #f7e064;
-  color: #333;
-  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2); }
-  .editor-link:hover {
-    background-color: #f4d525;
-    color: #333; }
-
-.cms-editor-active .editor-link {
-  display: block; }
-
-.cms-editor-active nav .editor-link {
-  display: inline; }
-
-.cms-editor-active .sidebar .editor-link {
-  display: inline-block;
-  margin: 0 auto 20px auto;
-  padding: 10px 20px; }
 
 /**
 * @license lyradesigns.com v1
